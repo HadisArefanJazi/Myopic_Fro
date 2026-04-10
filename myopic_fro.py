@@ -144,8 +144,8 @@ if __name__ == "__main__":
     # ----------------------------
     # User controls
     # ----------------------------
-    gamma_list = np.arange(2.5, 2.5 + 1e-12, 0.5)
-    T = 1
+    gamma_list = np.arange(0.5, 2.5 + 1e-12, 0.5)
+    T = 10
     gamma_target = 2.5
 
     grid_step = 5e-4   # exact draft setting
